@@ -8,7 +8,8 @@ from groq import Groq
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # API Keys များကို Environment Variables မှယူမည်
-
+TELEGRAM_TOKEN = os.getenv("8518235371:AAGSm--Yw-cZaOwWGGv6EC_LFV87C7ZMgq0")
+GROQ_API_KEY = os.getenv("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")
 
 client = Groq(api_key=GROQ_API_KEY)
 
