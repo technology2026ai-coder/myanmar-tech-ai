@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 from groq import Groq
 
 # ENV variables
-BOT_TOKEN = os.getenv("8733178250:AAEpvzBBaQm45sSnTbPjrgWRjM0KkWUi6xE")
+BOT_TOKEN = os.getenv("8750432897:AAH3R9ILWNaBbDGMBpcCCZIbCzlNUdi8OAA")
 GROQ_API_KEY = os.getenv("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")
 
 # Groq client
