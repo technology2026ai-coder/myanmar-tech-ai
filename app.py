@@ -4,8 +4,8 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
+BOT_TOKEN = os.environ.get("8733178250:AAEpvzBBaQm45sSnTbPjrgWRjM0KkWUi6xE", "")
+GROQ_API_KEY = os.environ.get("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", "")
 
 SYSTEM_PROMPT = """You are a friendly and polite AI assistant who speaks both Burmese (Myanmar) and English.
 Rules:
