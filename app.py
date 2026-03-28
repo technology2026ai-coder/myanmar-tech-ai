@@ -3,7 +3,8 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-
+BOT_TOKEN = "8733178250:AAEpvzBBaQm45sSnTbPjrgWRjM0KkWUi6xE"
+GROQ_API_KEY = "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"
 
 # Burmese + English bilingual system prompt
 SYSTEM_PROMPT = """You are a friendly and polite AI assistant who speaks both Burmese (Myanmar) and English.
